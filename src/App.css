@@ -1,0 +1,24 @@
+/* App.css - Prime Build Website */
+
+/* Remove all existing styles and replace with: */
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+/* Remove logo styles */
+.logo, .card, .read-the-docs {
+  display: none;
+}
+
+/* Add smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Ensure full width for all sections */
+section, main, header, footer {
+  width: 100%;
+}
