@@ -12,7 +12,7 @@ Built with **Next.js 15 · TypeScript · GSAP · Three.js**
 
 </div>
 
----
+----
 
 ## 🚀 About
 
