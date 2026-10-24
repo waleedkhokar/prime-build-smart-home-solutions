@@ -57,3 +57,9 @@ body { background: var(--color-paper); color: #14201d; overflow-x: hidden; }
   .sr { opacity: 1; transform: none; transition: none; }
   html { scroll-behavior: auto; }
 }
+@media (prefers-reduced-motion: reduce) {
+  .marquee-l, .marquee-r, .floaty, .sway, .phone-slide { animation: none !important; }
+  .reveal-mask > span { animation: none; transform: none; }
+  .sr { opacity: 1; transform: none; transition: none; }
+  html { scroll-behavior: auto; }
+}
